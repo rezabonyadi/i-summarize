@@ -5,6 +5,7 @@ import nltk
 # nltk.download('punkt')
 # nltk.download('stopwords')
     
+    
 
 def get_from_page(address='https://en.wikipedia.org/wiki/Artificial_intelligence'):
 
