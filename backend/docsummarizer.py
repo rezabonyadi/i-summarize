@@ -6,6 +6,7 @@ from transformers import BartTokenizer, BartForConditionalGeneration, BartConfig
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 import numpy as np
 
+
 class DocSummarizer:
     def __init__(self, sum_method):
         super().__init__()
