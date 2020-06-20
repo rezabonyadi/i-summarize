@@ -1,0 +1,15 @@
+name: i-summarize
+dependencies:
+  - python=3.7
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - pandas
+  - priority
+  - beautifulsoup4
+  - lxml
+  - nltk
+  - ipykernel
+  - pytorch::pytorch
+  - pip:
+    - bert-extractive-summarizer
