@@ -32,6 +32,7 @@ doc = get_document()
 # print('Using ', sum_method, ' method.')
 # print('Here is the summary: ', summary)
 
+
 # sum_method = 'GPT2'
 # summary = summarize_doc(doc, sum_method, per_paragraph=False)
 # print('Using ', sum_method, ' method.')
