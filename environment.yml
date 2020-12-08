@@ -1,15 +1,25 @@
 name: i-summarize
 dependencies:
   - python=3.7
-  - numpy
   - scikit-learn
   - matplotlib
+  - ffmpeg
   - pandas
   - priority
   - beautifulsoup4
   - lxml
   - nltk
   - ipykernel
-  - pytorch::pytorch
+  - pytorch::pytorch 
+  - pytorch::torchvision 
+  - conda-forge::umap-learn
   - pip:
     - bert-extractive-summarizer
+    - librosa
+    - webrtcvad
+    - sounddevice
+    - inflect
+    - PyQt5
+    - visdom
+    - multiprocess
+    - resemblyzer
