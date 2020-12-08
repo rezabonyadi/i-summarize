@@ -4,3 +4,7 @@ This is an attempt to use multiple technologies for summarizing meetings out of 
 - Recognize different speakers from their audio and prepare profile for each (this does not exist, I am building those)
 - Use speech to text to convert the audio to script
 - Use Text summarization tools (Bart/T5) to summarize scripts
+
+
+
+See diarization.ipynb for a demo on how to detect who is talking in a sound file, without having any voice samples.
